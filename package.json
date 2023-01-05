@@ -1,5 +1,5 @@
 {
-  "name": "intro-to-node",
+  "name": "calculator",
   "version": "1.0.0",
   "description": "This is a intro to node project",
   "main": "index.js",
@@ -9,7 +9,20 @@
   "author": "shriya",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "superheroes": "^3.0.0",
     "supervillains": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shriya2002/intro-to-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shriya2002/intro-to-node/issues"
+  },
+  "homepage": "https://github.com/shriya2002/intro-to-node#readme",
+  "devDependencies": {
+    "pstree.remy": "^1.1.0"
   }
 }
